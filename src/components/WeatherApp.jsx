@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Loading from "./Loading";
-
+console.log(axios);
 const WeatherApp = () => {
   const [city, setCity] = useState("");
   const [weatherInfo, setWeatherInfo] = useState(null);
